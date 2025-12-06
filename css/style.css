@@ -1,0 +1,148 @@
+
+:root{
+    --body-bg: white;
+    --index-bg: mintcream;
+    --sidebar-bg:#70837d;
+    --box1-bg:#b8860B;
+    --box2-bg:mintcream;
+}
+ body{
+    /* background-color: #ddd !important;
+     */
+     background-color: var(--index-bg) !important;
+ }
+ nav{
+    box-shadow: 2px 4px 0 #ddb;
+    font-size: large;
+    font-weight: 600;
+    /* background-color: var(--sidebar-bg); */
+    background-color: var(--index-bg);
+ }
+ nav ul {
+  margin-right: 10%;
+ }
+ nav ul li {
+    margin: 10px;
+    padding: 5px;
+ }
+ nav ul li a {
+text-decoration:  none;
+color: var(--sidebar-bg) !important;
+ }
+ .welcome-msg {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/image/ngastu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+     background-position: center;
+     
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+color: #fff;
+
+
+
+}
+.welcome-msg  .txt{
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+  
+   
+}
+.start-txt{
+    margin-top: 20px;
+    color: var(--sidebar-bg);
+  
+
+}
+nav ul li .log-out:hover{
+
+    border-bottom: 2px solid var(--box1-bg);
+}
+.wrap-cont{
+   padding: 20px ;
+   margin: 20px;
+}
+.wrap-cont .cont{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2,1fr);
+}
+.wrap-section{
+    margin-top: 5rem;
+}
+.wrap-section .headin-text h4{
+   position: absolute;
+
+    margin-top: 2rem;
+}
+.wrap-section  .cont .text-body{
+
+    margin-top: 8rem;
+}
+.wrap-btn .btn{
+    background-color: var(--box1-bg);
+    color: white;
+    padding: 4px;
+}
+nav  ul  .contact-nav{
+    background-color: var(--box1-bg) ;
+    color: white !important;
+}
+
+.summary {
+    padding: auto;
+    margin: auto;
+    background-color: var(--box1-bg);
+ 
+}
+.summary .cont{
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 4%;
+    margin-top: 5%;
+    color: white;
+
+}
+.summary .cont h6{
+    color: var(--box2-bg); 
+    margin-top: 20px;
+    margin-left: 5%;
+    font-size: x-large;
+    font-weight: 600;
+}
+.summary .cont ul li a:hover{
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid var(--box2-bg);
+}
+.summary .cont ul li a{
+    color: white;
+    text-decoration: none;
+}
+.summary .cont ul li{
+    list-style: none;
+   padding: 5px;
+   font-size: larger;
+   font-weight: 400;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+   
+}
+ .footer-icon .fa-brands{
+    margin: 10px;
+    padding: 10px;
+} 
+
+
