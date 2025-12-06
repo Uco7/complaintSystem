@@ -30,7 +30,7 @@ text-decoration:  none;
 color: var(--sidebar-bg) !important;
  }
  .welcome-msg {
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/image/ngastu.jpg);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./image/ngastu.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -144,5 +144,6 @@ nav  ul  .contact-nav{
     margin: 10px;
     padding: 10px;
 } 
+
 
 
